@@ -90,6 +90,10 @@ const ImageWrapper = styled.div`
   border: 4px dashed #02d463;
   width: 300px;
   height: 300px;
+  & img {
+    width: 300px;
+    height: 300px;
+  }
   @media (max-width: 767px) {
     width: 200px;
     height: 200px;

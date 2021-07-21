@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <FooterWrapper>
-      <CopyRight>Copyright {date.getFullYear()} © Bhavesh Wadhwani</CopyRight>
+      <CopyRight>Copyright {date.getFullYear()} © Aiiyan Sinha</CopyRight>
       <SocialWrapper>
         {Object.keys(data.social).map((item) => {
           if (item === "email")
